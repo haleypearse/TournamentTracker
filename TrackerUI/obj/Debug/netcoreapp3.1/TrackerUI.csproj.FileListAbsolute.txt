@@ -13,3 +13,9 @@ C:\Users\haley\source\repos\TournamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\
 C:\Users\haley\source\repos\TournamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.dll
 C:\Users\haley\source\repos\TournamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.pdb
 C:\Users\haley\source\repos\TournamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.genruntimeconfig.cache
+C:\Users\haley\source\repos\TournamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerLibrary.dll
+C:\Users\haley\source\repos\TournamentTracker\TrackerUI\bin\Debug\netcoreapp3.1\TrackerLibrary.pdb
+C:\Users\haley\source\repos\TournamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreatePrizeForm.resources
+C:\Users\haley\source\repos\TournamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.CreateTournamentForm.resources
+C:\Users\haley\source\repos\TournamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.TournamentDashboardForm.resources
+C:\Users\haley\source\repos\TournamentTracker\TrackerUI\obj\Debug\netcoreapp3.1\TrackerUI.csproj.CopyComplete
