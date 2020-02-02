@@ -14,6 +14,9 @@ namespace TrackerUI
         public CreatePrizeForm()
         {
             InitializeComponent();
+            // prizePercentageValue.Text = "0";
+            // prizeAmountValue.Text = "0";
+            placeNumberValue.Select();
         }
 
         private void createPrizeButton_Click(object sender, EventArgs e)
@@ -31,6 +34,11 @@ namespace TrackerUI
                     db.CreatePrize(model);
                 }
 
+                placeNameValue.Text = "";
+                placeNameValue.Text = "";
+                prizeAmountValue.Text = "0";
+                prizePercentageValue.Text = "0";
+
                 //model.PlaceName = placeNameValue.Text;
                 //model.PlaceNumber = placeNumberValue.Text;
 
@@ -45,9 +53,11 @@ namespace TrackerUI
 
         private bool ValidateForm()
         {
-            bool output = true;
+            bool output = true; // Valid until proven invalid
+
             int placeNumber = 0;
-            bool placeNumberValidNumber = int.TryParse(placeNumberValue.Text, out placeNumber);
+            bool placeNumberValidNumber = int.TryParse(placeNumberValue.Text, out placeNumber); 
+            // if Tryparse fails, it returns false and outputs 0
             
             if (placeNumberValidNumber == false || placeNumber < 1 || placeNumberValue.Text.Length == 0)
             {

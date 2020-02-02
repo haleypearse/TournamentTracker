@@ -20,6 +20,7 @@
             base.Dispose(disposing);
         }
 
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -102,12 +103,14 @@
             // 
             // prizePercentageValue
             // 
+            this.prizePercentageValue.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.prizePercentageValue.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.prizePercentageValue.Font = new System.Drawing.Font("Segoe UI", 11.89565F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.prizePercentageValue.Location = new System.Drawing.Point(359, 428);
             this.prizePercentageValue.Name = "prizePercentageValue";
             this.prizePercentageValue.Size = new System.Drawing.Size(200, 58);
             this.prizePercentageValue.TabIndex = 4;
+            this.prizePercentageValue.Text = "0";
             // 
             // prizeAmountValue
             // 
@@ -117,6 +120,7 @@
             this.prizeAmountValue.Name = "prizeAmountValue";
             this.prizeAmountValue.Size = new System.Drawing.Size(200, 58);
             this.prizeAmountValue.TabIndex = 4;
+            this.prizeAmountValue.Text = "0";
             // 
             // label3
             // 
@@ -188,5 +192,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label orLabel;
         private System.Windows.Forms.Button createPrizeButton;
+
+        //prizePercentageValue.Text = '0';
     }
 }

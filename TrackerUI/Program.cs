@@ -22,7 +22,7 @@ namespace TrackerUI
             TrackerLibrary.GlobalConfig.InitializeConnections(true, true);
 
             //Application.Run(new TrounamentViewerForm());
-            Application.Run(new CreatePrizeForm());
+            Application.Run(new CreatePrizeForm());     // Create prize form is run on startup of app
         }
     }
 }
